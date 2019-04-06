@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="NaveenChallenge">
+    <test name="AutomationChallenge">
+        <classes>
+            <class name="com.zoopla.tests.ZooplaHomePageTests"/>
+            <class name="com.zoopla.tests.ZooplaSearchResultsTests" />
+            <class name="com.zoopla.tests.ZooplaEndToEnd" />
+        </classes>
+    </test> <!-- AutomationChallenge -->
+</suite> <!-- Default Suite -->

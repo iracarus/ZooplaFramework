@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="NaveenChallenge" duration-ms="60122" started-at="2019-04-06T23:14:24 IST" finished-at="2019-04-06T23:15:24 IST">
+    <groups>
+    </groups>
+    <test name="AutomationChallenge" duration-ms="60122" started-at="2019-04-06T23:14:24 IST" finished-at="2019-04-06T23:15:24 IST">
+      <class name="com.zoopla.tests.ZooplaEndToEnd">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.zoopla.tests.ZooplaEndToEnd@13a57a3b]" name="setup" is-config="true" duration-ms="8906" started-at="2019-04-06T23:15:02 IST" finished-at="2019-04-06T23:15:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyAgentDetails()[pri:1, instance:com.zoopla.tests.ZooplaEndToEnd@13a57a3b]" name="verifyAgentDetails" duration-ms="13216" started-at="2019-04-06T23:15:11 IST" finished-at="2019-04-06T23:15:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAgentDetails -->
+        <test-method status="PASS" signature="end()[pri:0, instance:com.zoopla.tests.ZooplaEndToEnd@13a57a3b]" name="end" is-config="true" duration-ms="294" started-at="2019-04-06T23:15:24 IST" finished-at="2019-04-06T23:15:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- com.zoopla.tests.ZooplaEndToEnd -->
+      <class name="com.zoopla.tests.ZooplaSearchResultsTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.zoopla.tests.ZooplaSearchResultsTests@69d9c55]" name="setup" is-config="true" duration-ms="7832" started-at="2019-04-06T23:14:35 IST" finished-at="2019-04-06T23:14:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="printPricesDescending()[pri:1, instance:com.zoopla.tests.ZooplaSearchResultsTests@69d9c55]" name="printPricesDescending" duration-ms="19230" started-at="2019-04-06T23:14:43 IST" finished-at="2019-04-06T23:15:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printPricesDescending -->
+      </class> <!-- com.zoopla.tests.ZooplaSearchResultsTests -->
+      <class name="com.zoopla.tests.ZooplaHomePageTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.zoopla.tests.ZooplaHomePageTests@7f560810]" name="setup" is-config="true" duration-ms="10375" started-at="2019-04-06T23:14:24 IST" finished-at="2019-04-06T23:14:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyHomePageTitle()[pri:1, instance:com.zoopla.tests.ZooplaHomePageTests@7f560810]" name="verifyHomePageTitle" duration-ms="25" started-at="2019-04-06T23:14:35 IST" finished-at="2019-04-06T23:14:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method status="PASS" signature="end()[pri:0, instance:com.zoopla.tests.ZooplaHomePageTests@7f560810]" name="end" is-config="true" duration-ms="163" started-at="2019-04-06T23:14:35 IST" finished-at="2019-04-06T23:14:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- com.zoopla.tests.ZooplaHomePageTests -->
+    </test> <!-- AutomationChallenge -->
+  </suite> <!-- NaveenChallenge -->
+</testng-results>
