@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="64.56" tests="5" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="71.129" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="JOB_NAME" value="ZooplaTestJob"/>
@@ -13,20 +13,19 @@
     <property name="os.name" value="Mac OS X"/>
     <property name="TERM_PROGRAM" value="Apple_Terminal"/>
     <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/classes"/>
-    <property name="EXECUTOR_NUMBER" value="0"/>
-    <property name="TERM_SESSION_ID" value="38EC5624-0033-4F10-8DF1-B1BA736C893D"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="TERM_SESSION_ID" value="2A27E3D3-FED0-40E1-8AC3-17959D793E07"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="POM_DISPLAYNAME" value="com.naveenautomation.challenge"/>
     <property name="NODE_LABELS" value="master"/>
     <property name="java.runtime.version" value="1.8.0_162-b12"/>
-    <property name="JAVA_MAIN_CLASS_68773" value="Main"/>
     <property name="user.name" value="Kingslayer"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="SECURITYSESSIONID" value="187a0"/>
     <property name="user.language" value="en"/>
     <property name="JOB_BASE_NAME" value="ZooplaTestJob"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/ZooplaTestJob/2/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#2"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/ZooplaTestJob/4/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#4"/>
     <property name="TMPDIR" value="/var/folders/v6/4w89hdzx3x1548mrvhyh2xtr0000gn/T/"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib"/>
     <property name="java.version" value="1.8.0_162"/>
@@ -37,7 +36,7 @@
     <property name="TERM" value="xterm-256color"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre/lib/endorsed"/>
-    <property name="BUILD_ID" value="2"/>
+    <property name="BUILD_ID" value="4"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -51,7 +50,7 @@
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="os.version" value="10.14.4"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/ZooplaTestJob/2/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/ZooplaTestJob/4/display/redirect"/>
     <property name="POM_VERSION" value="1.0-SNAPSHOT"/>
     <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
     <property name="path.separator" value=":"/>
@@ -69,7 +68,7 @@
     <property name="HOME" value="/Users/Kingslayer"/>
     <property name="POM_GROUPID" value="AutomationChallenge"/>
     <property name="user.home" value="/Users/Kingslayer"/>
-    <property name="BUILD_TAG" value="jenkins-ZooplaTestJob-2"/>
+    <property name="BUILD_TAG" value="jenkins-ZooplaTestJob-4"/>
     <property name="JENKINS_SERVER_COOKIE" value="f471d97b853a85a1"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="XPC_SERVICE_NAME" value="0"/>
@@ -78,12 +77,13 @@
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="java.library.path" value="/Users/Kingslayer/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="Apple_PubSub_Socket_Render" value="/private/tmp/com.apple.launchd.jlJRuCz6hK/Render"/>
+    <property name="JAVA_MAIN_CLASS_70585" value="Main"/>
     <property name="gopherProxySet" value="false"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="/Users/Kingslayer/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven"/>
     <property name="java.class.path" value="/Users/Kingslayer/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-agent-1.12.jar:/Users/Kingslayer/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven/boot/plexus-classworlds-2.5.2.jar:/Users/Kingslayer/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main /Users/Kingslayer/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven /Users/Kingslayer/.jenkins/war/WEB-INF/lib/remoting-3.29.jar /Users/Kingslayer/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.12.jar /Users/Kingslayer/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.12.jar 53045"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main /Users/Kingslayer/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven /Users/Kingslayer/.jenkins/war/WEB-INF/lib/remoting-3.29.jar /Users/Kingslayer/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.12.jar /Users/Kingslayer/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.12.jar 55643"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.os.patch.level" value="unknown"/>
@@ -92,7 +92,7 @@
     <property name="java.io.tmpdir" value="/var/folders/v6/4w89hdzx3x1548mrvhyh2xtr0000gn/T/"/>
     <property name="HUDSON_HOME" value="/Users/Kingslayer/.jenkins"/>
     <property name="PATH+MAVEN" value="/Users/Kingslayer/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven/bin"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/ZooplaTestJob/2/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/ZooplaTestJob/4/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="OLDPWD" value="/Users/Kingslayer/Downloads/Selenium"/>
     <property name="SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.sbrQJ6wpw1/Listeners"/>
@@ -108,7 +108,7 @@
     <property name="JAVA_ARCH" value="x86_64"/>
     <property name="MAVEN_HOME" value="/Users/Kingslayer/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="2"/>
+    <property name="BUILD_NUMBER" value="4"/>
     <property name="ANDROID_HOME" value="/Users/Kingslayer/Library/Android/sdk"/>
     <property name="JENKINS_URL" value="http://localhost:8080/"/>
     <property name="TERM_PROGRAM_VERSION" value="421.1.1"/>
@@ -119,9 +119,10 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="USER" value="Kingslayer"/>
   </properties>
-  <testcase name="verifyHomePageTitle" classname="com.zoopla.tests.ZooplaHomePageTests" time="0.033"/>
-  <testcase name="printPricesDescending" classname="com.zoopla.tests.ZooplaSearchResultsTests" time="12.231"/>
-  <testcase name="verifyAgentDetails" classname="com.zoopla.tests.ZooplaEndToEnd" time="17.622"/>
-  <testcase name="verifyAgentDetails" classname="com.zoopla.tests.ZooplaEndToEnd" time="17.266"/>
-  <testcase name="verifyAgentDetails" classname="com.zoopla.tests.ZooplaEndToEnd" time="17.408"/>
+  <testcase name="verifyHomePageTitle" classname="com.zoopla.tests.ZooplaHomePageTests" time="0.014"/>
+  <testcase name="printPricesDescending" classname="com.zoopla.tests.ZooplaSearchResultsTests" time="9.441"/>
+  <testcase name="verifyAgentDetails" classname="com.zoopla.tests.ZooplaEndToEnd" time="14.001"/>
+  <testcase name="verifyAgentDetails" classname="com.zoopla.tests.ZooplaEndToEnd" time="12.715"/>
+  <testcase name="verifyAgentDetails" classname="com.zoopla.tests.ZooplaEndToEnd" time="17.317"/>
+  <testcase name="verifyAgentDetails" classname="com.zoopla.tests.ZooplaEndToEnd" time="17.641"/>
 </testsuite>

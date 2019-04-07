@@ -5,6 +5,7 @@
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/zoopla/base/ExcelUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zoopla/base/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zoopla/base/BaseClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zoopla/base/TestUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zoopla/base/TestUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zoopla/pages/SearchResultsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zoopla/pages/SearchResultsPage.java" afterDir="false" />
@@ -157,8 +158,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-741">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="303">
+              <caret line="66" column="63" selection-start-line="66" selection-start-column="63" selection-end-line="66" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -178,7 +179,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/properties.config" />
         <option value="$PROJECT_DIR$/src/main/java/BaseClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/TestUtil.java" />
@@ -195,6 +195,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zoopla/pages/SearchResultsPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/zoopla/tests/ExcelTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/zoopla/tests/ZooplaEndToEnd.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -509,9 +510,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="3" y="23" width="1425" height="797" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25343955" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25343955" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -519,7 +519,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32930514" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.5770393" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5770393" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.44410875" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -532,7 +532,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.3294714" />
+      <window_info active="true" anchor="right" id="Maven" order="4" visible="true" weight="0.3294714" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info anchor="right" id="Key Promoter X" order="6" />
     </layout>
@@ -794,8 +794,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-741">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="303">
+          <caret line="66" column="63" selection-start-line="66" selection-start-column="63" selection-end-line="66" selection-end-column="63" />
         </state>
       </provider>
     </entry>

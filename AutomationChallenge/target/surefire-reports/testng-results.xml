@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="NaveenChallenge" duration-ms="118897" started-at="2019-04-07T18:54:59 IST" finished-at="2019-04-07T18:56:58 IST">
+  <suite name="NaveenChallenge" duration-ms="128195" started-at="2019-04-07T20:17:51 IST" finished-at="2019-04-07T20:20:00 IST">
     <groups>
     </groups>
-    <test name="AutomationChallenge" duration-ms="118897" started-at="2019-04-07T18:54:59 IST" finished-at="2019-04-07T18:56:58 IST">
+    <test name="AutomationChallenge" duration-ms="128195" started-at="2019-04-07T20:17:51 IST" finished-at="2019-04-07T20:20:00 IST">
       <class name="com.zoopla.tests.ZooplaEndToEnd">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.zoopla.tests.ZooplaEndToEnd@100fc185]" name="setup" is-config="true" duration-ms="8601" started-at="2019-04-07T18:55:36 IST" finished-at="2019-04-07T18:55:45 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.zoopla.tests.ZooplaEndToEnd@100fc185]" name="setup" is-config="true" duration-ms="9152" started-at="2019-04-07T20:18:21 IST" finished-at="2019-04-07T20:18:30 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyAgentDetails(java.lang.String, java.lang.String)[pri:1, instance:com.zoopla.tests.ZooplaEndToEnd@100fc185]" name="verifyAgentDetails" duration-ms="17617" started-at="2019-04-07T18:55:45 IST" data-provider="getPropertyTestData" finished-at="2019-04-07T18:56:02 IST">
+        <test-method status="PASS" signature="verifyAgentDetails(java.lang.String, java.lang.String)[pri:1, instance:com.zoopla.tests.ZooplaEndToEnd@100fc185]" name="verifyAgentDetails" duration-ms="14001" started-at="2019-04-07T20:18:30 IST" data-provider="getPropertyTestData" finished-at="2019-04-07T20:18:44 IST">
           <params>
             <param index="0">
               <value>
@@ -27,15 +27,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAgentDetails -->
-        <test-method status="PASS" signature="end()[pri:0, instance:com.zoopla.tests.ZooplaEndToEnd@100fc185]" name="end" is-config="true" duration-ms="394" started-at="2019-04-07T18:56:02 IST" finished-at="2019-04-07T18:56:03 IST">
+        <test-method status="PASS" signature="end()[pri:0, instance:com.zoopla.tests.ZooplaEndToEnd@100fc185]" name="end" is-config="true" duration-ms="286" started-at="2019-04-07T20:18:44 IST" finished-at="2019-04-07T20:18:44 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.zoopla.tests.ZooplaEndToEnd@100fc185]" name="setup" is-config="true" duration-ms="8391" started-at="2019-04-07T18:56:03 IST" finished-at="2019-04-07T18:56:11 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.zoopla.tests.ZooplaEndToEnd@100fc185]" name="setup" is-config="true" duration-ms="7989" started-at="2019-04-07T20:18:44 IST" finished-at="2019-04-07T20:18:52 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyAgentDetails(java.lang.String, java.lang.String)[pri:1, instance:com.zoopla.tests.ZooplaEndToEnd@100fc185]" name="verifyAgentDetails" duration-ms="17268" started-at="2019-04-07T18:56:11 IST" data-provider="getPropertyTestData" finished-at="2019-04-07T18:56:28 IST">
+        <test-method status="PASS" signature="verifyAgentDetails(java.lang.String, java.lang.String)[pri:1, instance:com.zoopla.tests.ZooplaEndToEnd@100fc185]" name="verifyAgentDetails" duration-ms="12715" started-at="2019-04-07T20:18:52 IST" data-provider="getPropertyTestData" finished-at="2019-04-07T20:19:05 IST">
           <params>
             <param index="0">
               <value>
@@ -51,15 +51,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAgentDetails -->
-        <test-method status="PASS" signature="end()[pri:0, instance:com.zoopla.tests.ZooplaEndToEnd@100fc185]" name="end" is-config="true" duration-ms="350" started-at="2019-04-07T18:56:28 IST" finished-at="2019-04-07T18:56:29 IST">
+        <test-method status="PASS" signature="end()[pri:0, instance:com.zoopla.tests.ZooplaEndToEnd@100fc185]" name="end" is-config="true" duration-ms="268" started-at="2019-04-07T20:19:05 IST" finished-at="2019-04-07T20:19:05 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.zoopla.tests.ZooplaEndToEnd@100fc185]" name="setup" is-config="true" duration-ms="11738" started-at="2019-04-07T18:56:29 IST" finished-at="2019-04-07T18:56:40 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.zoopla.tests.ZooplaEndToEnd@100fc185]" name="setup" is-config="true" duration-ms="9894" started-at="2019-04-07T20:19:05 IST" finished-at="2019-04-07T20:19:15 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyAgentDetails(java.lang.String, java.lang.String)[pri:1, instance:com.zoopla.tests.ZooplaEndToEnd@100fc185]" name="verifyAgentDetails" duration-ms="17403" started-at="2019-04-07T18:56:40 IST" data-provider="getPropertyTestData" finished-at="2019-04-07T18:56:58 IST">
+        <test-method status="PASS" signature="verifyAgentDetails(java.lang.String, java.lang.String)[pri:1, instance:com.zoopla.tests.ZooplaEndToEnd@100fc185]" name="verifyAgentDetails" duration-ms="17316" started-at="2019-04-07T20:19:15 IST" data-provider="getPropertyTestData" finished-at="2019-04-07T20:19:32 IST">
           <params>
             <param index="0">
               <value>
@@ -75,35 +75,59 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAgentDetails -->
-        <test-method status="PASS" signature="end()[pri:0, instance:com.zoopla.tests.ZooplaEndToEnd@100fc185]" name="end" is-config="true" duration-ms="360" started-at="2019-04-07T18:56:58 IST" finished-at="2019-04-07T18:56:58 IST">
+        <test-method status="PASS" signature="end()[pri:0, instance:com.zoopla.tests.ZooplaEndToEnd@100fc185]" name="end" is-config="true" duration-ms="320" started-at="2019-04-07T20:19:32 IST" finished-at="2019-04-07T20:19:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.zoopla.tests.ZooplaEndToEnd@100fc185]" name="setup" is-config="true" duration-ms="8933" started-at="2019-04-07T20:19:33 IST" finished-at="2019-04-07T20:19:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyAgentDetails(java.lang.String, java.lang.String)[pri:1, instance:com.zoopla.tests.ZooplaEndToEnd@100fc185]" name="verifyAgentDetails" duration-ms="17643" started-at="2019-04-07T20:19:42 IST" data-provider="getPropertyTestData" finished-at="2019-04-07T20:19:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[York]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAgentDetails -->
+        <test-method status="PASS" signature="end()[pri:0, instance:com.zoopla.tests.ZooplaEndToEnd@100fc185]" name="end" is-config="true" duration-ms="307" started-at="2019-04-07T20:19:59 IST" finished-at="2019-04-07T20:20:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
       </class> <!-- com.zoopla.tests.ZooplaEndToEnd -->
       <class name="com.zoopla.tests.ZooplaSearchResultsTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.zoopla.tests.ZooplaSearchResultsTests@3a82f6ef]" name="setup" is-config="true" duration-ms="11012" started-at="2019-04-07T18:55:12 IST" finished-at="2019-04-07T18:55:23 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.zoopla.tests.ZooplaSearchResultsTests@3a82f6ef]" name="setup" is-config="true" duration-ms="9160" started-at="2019-04-07T20:18:02 IST" finished-at="2019-04-07T20:18:11 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="printPricesDescending()[pri:1, instance:com.zoopla.tests.ZooplaSearchResultsTests@3a82f6ef]" name="printPricesDescending" duration-ms="12228" started-at="2019-04-07T18:55:23 IST" finished-at="2019-04-07T18:55:35 IST">
+        <test-method status="PASS" signature="printPricesDescending()[pri:1, instance:com.zoopla.tests.ZooplaSearchResultsTests@3a82f6ef]" name="printPricesDescending" duration-ms="9442" started-at="2019-04-07T20:18:11 IST" finished-at="2019-04-07T20:18:20 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printPricesDescending -->
-        <test-method status="PASS" signature="end()[pri:0, instance:com.zoopla.tests.ZooplaSearchResultsTests@3a82f6ef]" name="end" is-config="true" duration-ms="409" started-at="2019-04-07T18:55:35 IST" finished-at="2019-04-07T18:55:36 IST">
+        <test-method status="PASS" signature="end()[pri:0, instance:com.zoopla.tests.ZooplaSearchResultsTests@3a82f6ef]" name="end" is-config="true" duration-ms="293" started-at="2019-04-07T20:18:20 IST" finished-at="2019-04-07T20:18:21 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
       </class> <!-- com.zoopla.tests.ZooplaSearchResultsTests -->
       <class name="com.zoopla.tests.ZooplaHomePageTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.zoopla.tests.ZooplaHomePageTests@6cc4c815]" name="setup" is-config="true" duration-ms="12584" started-at="2019-04-07T18:54:59 IST" finished-at="2019-04-07T18:55:12 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.zoopla.tests.ZooplaHomePageTests@6cc4c815]" name="setup" is-config="true" duration-ms="10099" started-at="2019-04-07T20:17:51 IST" finished-at="2019-04-07T20:18:01 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyHomePageTitle()[pri:1, instance:com.zoopla.tests.ZooplaHomePageTests@6cc4c815]" name="verifyHomePageTitle" duration-ms="17" started-at="2019-04-07T18:55:12 IST" finished-at="2019-04-07T18:55:12 IST">
+        <test-method status="PASS" signature="verifyHomePageTitle()[pri:1, instance:com.zoopla.tests.ZooplaHomePageTests@6cc4c815]" name="verifyHomePageTitle" duration-ms="13" started-at="2019-04-07T20:18:02 IST" finished-at="2019-04-07T20:18:02 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePageTitle -->
-        <test-method status="PASS" signature="end()[pri:0, instance:com.zoopla.tests.ZooplaHomePageTests@6cc4c815]" name="end" is-config="true" duration-ms="261" started-at="2019-04-07T18:55:12 IST" finished-at="2019-04-07T18:55:12 IST">
+        <test-method status="PASS" signature="end()[pri:0, instance:com.zoopla.tests.ZooplaHomePageTests@6cc4c815]" name="end" is-config="true" duration-ms="212" started-at="2019-04-07T20:18:02 IST" finished-at="2019-04-07T20:18:02 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
