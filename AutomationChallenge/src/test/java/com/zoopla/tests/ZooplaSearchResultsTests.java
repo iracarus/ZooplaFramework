@@ -1,12 +1,11 @@
 package com.zoopla.tests;
 
 import com.zoopla.base.BaseClass;
+import com.zoopla.base.ExcelUtils;
 import com.zoopla.pages.HomePage;
 import com.zoopla.pages.SearchResultsPage;
 import org.openqa.selenium.WebElement;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 import java.util.Collections;
 import java.util.List;
@@ -15,7 +14,7 @@ public class ZooplaSearchResultsTests extends BaseClass {
     HomePage homePage;
     SearchResultsPage searchPage;
 
-    @BeforeMethod
+    @BeforeClass
     public void setup()
     {
         initialize();
@@ -26,7 +25,7 @@ public class ZooplaSearchResultsTests extends BaseClass {
     @Test(priority=1)
     public void printPricesDescending()
     {
-        String cityName = "London";
+        String cityName = ExcelUtils.getCellData(1, 0);
         homePage.performSearch(cityName);
         List<WebElement> listings = searchPage.getPropertyListingObjects();
         List<Integer> prices = searchPage.getPrices(listings);
@@ -35,5 +34,9 @@ public class ZooplaSearchResultsTests extends BaseClass {
         for( int i = prices.size()-1; i >= 0; i--)
             System.out.println(prices.get(i));
     }
-
+    @AfterClass
+    public void end()
+    {
+        tearDown();
+    }
 }

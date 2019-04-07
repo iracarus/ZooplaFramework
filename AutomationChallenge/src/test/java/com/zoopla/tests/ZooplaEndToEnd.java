@@ -1,14 +1,14 @@
 package com.zoopla.tests;
 
 import com.zoopla.base.BaseClass;
+import com.zoopla.base.ExcelUtils;
+import com.zoopla.base.TestUtil;
 import com.zoopla.pages.AgentDetailsPage;
 import com.zoopla.pages.HomePage;
 import com.zoopla.pages.PropertyDetailsPage;
 import com.zoopla.pages.SearchResultsPage;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 public class ZooplaEndToEnd extends BaseClass {
 
@@ -17,6 +17,7 @@ public class ZooplaEndToEnd extends BaseClass {
     PropertyDetailsPage propertyDetailsPage;
     AgentDetailsPage agentDetailsPage;
 
+    String TestDataSheet = "Property";
     @BeforeMethod
     public void setup()
     {
@@ -27,16 +28,20 @@ public class ZooplaEndToEnd extends BaseClass {
         agentDetailsPage = new AgentDetailsPage();
     }
 
-
-    @Test(priority=1)
-    public void verifyAgentDetails()
-    {
-        String cityName = "London";
+    @DataProvider
+    public Object[][] getPropertyTestData(){
+        Object[][] data = TestUtil.getTestData(TestDataSheet);
+        return data;
+    }
+    @Test(priority=1, dataProvider = "getPropertyTestData")
+    public void verifyAgentDetails(String City, String LocationPosition) throws InterruptedException {
         String expAgentLogo, expAgentName, expAgentPhone;
         String actualAgentLogo, actualAgentName, actualAgentPhone;
 
-        homePage.performSearch(cityName);
-        searchPage.navigateToPropertyDetails(5);
+        homePage.performSearch(City);
+        //searchPage.navigateToPropertyDetails(Integer.valueOf(ExcelUtils.getCellData(1,1)));
+        searchPage.navigateToPropertyDetails((int)Double.parseDouble(LocationPosition));
+
         expAgentLogo = propertyDetailsPage.getAgentLogo();
         expAgentName = propertyDetailsPage.getAgentName();
         expAgentPhone = propertyDetailsPage.getAgentPhone();

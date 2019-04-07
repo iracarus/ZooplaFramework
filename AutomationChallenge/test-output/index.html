@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -107,7 +107,17 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-NaveenChallenge" title="com.zoopla.tests.ZooplaEndToEnd" hash-for-method="verifyAgentDetails">verifyAgentDetails</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-NaveenChallenge" title="com.zoopla.tests.ZooplaEndToEnd" hash-for-method="verifyAgentDetails(Aberdeen, 4.0)">verifyAgentDetails(Aberdeen, 4.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-NaveenChallenge" title="com.zoopla.tests.ZooplaEndToEnd" hash-for-method="verifyAgentDetails(London, 5.0)">verifyAgentDetails(London, 5.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-NaveenChallenge" title="com.zoopla.tests.ZooplaEndToEnd" hash-for-method="verifyAgentDetails(Oxford, 7.0)">verifyAgentDetails(Oxford, 7.0)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -135,9 +145,26 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyAgentDetails">
-                  </a> <!-- verifyAgentDetails -->
+                  <a name="verifyAgentDetails(Aberdeen, 4.0)">
+                  </a> <!-- verifyAgentDetails(Aberdeen, 4.0) -->
                   <span class="method-name">verifyAgentDetails</span>
+                  <span class="parameters">(Aberdeen, 4.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAgentDetails(London, 5.0)">
+                  </a> <!-- verifyAgentDetails(London, 5.0) -->
+                  <span class="method-name">verifyAgentDetails</span>
+                  <span class="parameters">(London, 5.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAgentDetails(Oxford, 7.0)">
+                  </a> <!-- verifyAgentDetails(Oxford, 7.0) -->
+                  <span class="method-name">verifyAgentDetails</span>
+                  <span class="parameters">(Oxford, 7.0)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -226,24 +253,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'printPricesDescending')
-data.setCell(0, 2, 'com.zoopla.tests.ZooplaSearchResultsTests')
-data.setCell(0, 3, 19230);
+data.setCell(0, 1, 'verifyAgentDetails')
+data.setCell(0, 2, 'com.zoopla.tests.ZooplaEndToEnd')
+data.setCell(0, 3, 16765);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'verifyAgentDetails')
 data.setCell(1, 2, 'com.zoopla.tests.ZooplaEndToEnd')
-data.setCell(1, 3, 13216);
+data.setCell(1, 3, 16136);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyHomePageTitle')
-data.setCell(2, 2, 'com.zoopla.tests.ZooplaHomePageTests')
-data.setCell(2, 3, 25);
+data.setCell(2, 1, 'verifyAgentDetails')
+data.setCell(2, 2, 'com.zoopla.tests.ZooplaEndToEnd')
+data.setCell(2, 3, 15274);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'printPricesDescending')
+data.setCell(3, 2, 'com.zoopla.tests.ZooplaSearchResultsTests')
+data.setCell(3, 3, 10175);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyHomePageTitle')
+data.setCell(4, 2, 'com.zoopla.tests.ZooplaHomePageTests')
+data.setCell(4, 3, 32);
 window.suiteTableData['NaveenChallenge']= { tableData: data, tableDiv: 'times-div-NaveenChallenge'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 32 seconds</span>
+              <span class="suite-total-time">Total running time: 58 seconds</span>
               <div id="times-div-NaveenChallenge">
               </div> <!-- times-div-NaveenChallenge -->
             </div> <!-- times-div -->
@@ -270,43 +305,71 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">com.zoopla.tests.ZooplaHomePageTests</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
+              <div class="configuration-class before">
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-method before -->
+              </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">verifyHomePageTitle</span>
-                <span class="method-start">10377 ms</span>
+                <span class="method-start">11227 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
+              <div class="configuration-class after">
                 <span class="method-name">end</span>
-                <span class="method-start">10405 ms</span>
-              </div> <!-- configuration-method after -->
+                <span class="method-start">11265 ms</span>
+              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.zoopla.tests.ZooplaSearchResultsTests</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
+              <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">10576 ms</span>
-              </div> <!-- configuration-method before -->
+                <span class="method-start">11483 ms</span>
+              </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">printPricesDescending</span>
-                <span class="method-start">18408 ms</span>
+                <span class="method-start">18807 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">end</span>
+                <span class="method-start">28982 ms</span>
+              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.zoopla.tests.ZooplaEndToEnd</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">37649 ms</span>
+                <span class="method-start">29405 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyAgentDetails</span>
-                <span class="method-start">46557 ms</span>
+                <span class="method-name">verifyAgentDetails(Oxford, 7.0)</span>
+                <span class="method-start">36656 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">end</span>
-                <span class="method-start">59775 ms</span>
+                <span class="method-start">51932 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">52273 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAgentDetails(London, 5.0)</span>
+                <span class="method-start">56737 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">end</span>
+                <span class="method-start">73504 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">73795 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAgentDetails(Aberdeen, 4.0)</span>
+                <span class="method-start">81055 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">end</span>
+                <span class="method-start">97191 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -2,5 +2,6 @@ com/zoopla/pages/HomePage.class
 com/zoopla/pages/PropertyDetailsPage.class
 com/zoopla/base/TestUtil.class
 com/zoopla/pages/SearchResultsPage.class
+com/zoopla/base/ExcelUtils.class
 com/zoopla/base/BaseClass.class
 com/zoopla/pages/AgentDetailsPage.class

@@ -5,6 +5,7 @@ import com.zoopla.base.TestUtil;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
+import org.testng.annotations.DataProvider;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -12,6 +13,7 @@ import java.util.List;
 
 public class SearchResultsPage extends BaseClass {
     public String selectedPropertySummary, selectedPropertyAddress, selectedPropertyRent;
+    String TestDataSheet = "Property";
 
     public List<WebElement> getPropertyListingObjects()
     {

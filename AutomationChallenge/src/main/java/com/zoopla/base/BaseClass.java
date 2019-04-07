@@ -26,6 +26,8 @@ public class BaseClass {
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+        ExcelUtils excel = new ExcelUtils();
     }
 
     public static void initialize()
