@@ -2,39 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07ed70e1-3421-4fe3-a083-ab30d92a3405" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zoopla/base/ExcelUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zoopla/base/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zoopla/base/BaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zoopla/base/TestUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zoopla/base/TestUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zoopla/pages/SearchResultsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zoopla/pages/SearchResultsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zoopla/tests/ZooplaEndToEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zoopla/tests/ZooplaEndToEnd.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/zoopla/tests/ZooplaHomePageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zoopla/tests/ZooplaHomePageTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zoopla/tests/ZooplaSearchResultsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zoopla/tests/ZooplaSearchResultsTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zoopla/base/BaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zoopla/base/BaseClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zoopla/base/TestUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zoopla/base/TestUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zoopla/pages/SearchResultsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zoopla/pages/SearchResultsPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zoopla/tests/ZooplaEndToEnd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/zoopla/tests/ZooplaEndToEnd.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/zoopla/tests/ZooplaHomePageTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/zoopla/tests/ZooplaHomePageTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zoopla/tests/ZooplaSearchResultsTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/zoopla/tests/ZooplaSearchResultsTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/NaveenChallenge/AutomationChallenge.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/NaveenChallenge/AutomationChallenge.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/NaveenChallenge/AutomationChallenge.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/NaveenChallenge/AutomationChallenge.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.zoopla.tests.ZooplaEndToEnd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.zoopla.tests.ZooplaEndToEnd.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.zoopla.tests.ZooplaHomePageTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.zoopla.tests.ZooplaHomePageTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.zoopla.tests.ZooplaSearchResultsTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.zoopla.tests.ZooplaSearchResultsTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/NaveenChallenge/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/NaveenChallenge/classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/NaveenChallenge/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/NaveenChallenge/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/NaveenChallenge/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/NaveenChallenge/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/NaveenChallenge/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/NaveenChallenge/toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,58 +19,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zoopla/base/BaseClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1150">
-              <caret line="50" column="45" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/zoopla/tests/ZooplaEndToEnd.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zoopla/base/TestUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1311">
-              <caret line="57" column="20" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zoopla/pages/PropertyDetailsPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="53" selection-start-line="53" selection-end-line="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1512#1513#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/zoopla/tests/ExcelTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
+            <state relative-caret-position="276">
               <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -110,8 +33,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zoopla/base/ExcelUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-493">
+            <state relative-caret-position="161">
               <caret line="16" column="147" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="147" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zoopla/base/BaseClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="56" column="5" selection-start-line="16" selection-end-line="56" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,7 +57,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/zoopla/tests/ZooplaSearchResultsTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
+            <state relative-caret-position="667">
               <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -134,8 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/zoopla/tests/ZooplaHomePageTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="31" column="5" selection-start-line="27" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
+            <state relative-caret-position="96">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="18" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -144,10 +79,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zoopla/pages/SearchResultsPage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/zoopla/tests/ZooplaEndToEnd.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="61">
-              <caret line="57" selection-start-line="57" selection-end-line="57" />
+            <state relative-caret-position="4">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -155,11 +90,37 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/logs/propertieslogs.log">
+          <provider selected="true" editor-type-id="LogFileEditorProvider" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="394">
+              <caret line="21" lean-forward="true" selection-end-line="25" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zoopla/pages/SearchResultsPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="66" column="63" selection-start-line="66" selection-start-column="63" selection-end-line="66" selection-end-column="63" />
+            <state relative-caret-position="69">
+              <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="53" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -188,14 +149,16 @@
         <option value="$PROJECT_DIR$/src/test/java/com/zoopla/tests/ZooplaTests.java" />
         <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/zoopla/base/ExcelUtils.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/zoopla/tests/ZooplaHomePageTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/zoopla/tests/ZooplaSearchResultsTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zoopla/base/BaseClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zoopla/base/TestUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zoopla/pages/SearchResultsPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/zoopla/tests/ExcelTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/zoopla/tests/ZooplaEndToEnd.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/zoopla/tests/ZooplaHomePageTests.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j2.properties" />
       </list>
     </option>
   </component>
@@ -244,6 +207,11 @@
             <path>
               <item name="AutomationChallenge" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutomationChallenge" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutomationChallenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomationChallenge" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -281,15 +249,6 @@
               <item name="AutomationChallenge" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zoopla" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationChallenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationChallenge" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -312,17 +271,6 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationChallenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationChallenge" type="462c0819:PsiDirectoryNode" />
-              <item name="test-output" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomationChallenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomationChallenge" type="462c0819:PsiDirectoryNode" />
-              <item name="test-output" type="462c0819:PsiDirectoryNode" />
-              <item name="NaveenChallenge" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -353,7 +301,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG./Users/Kingslayer/Downloads/Selenium/NaveenHybridFramework/AutomationChallenge/testng.xml">
+  <component name="RunManager" selected="TestNG.ZooplaHomePageTests">
     <configuration name="ExcelTests.getData" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationChallenge" />
       <extension name="coverage">
@@ -406,7 +354,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZooplaTests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ZooplaHomePageTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationChallenge" />
       <extension name="coverage">
         <pattern>
@@ -414,17 +362,8 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="com.zoopla.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.zoopla.tests.ZooplaTests" />
-      <option name="GROUP_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="true" />
-      <option name="PROPERTIES_FILE" value="" />
+      <option name="MAIN_CLASS_NAME" value="com.zoopla.tests.ZooplaHomePageTests" />
       <properties />
       <listeners />
       <method v="2">
@@ -450,19 +389,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.ZooplaTests" />
       <item itemvalue="TestNG./Users/Kingslayer/Downloads/Selenium/NaveenHybridFramework/AutomationChallenge/testng.xml" />
       <item itemvalue="TestNG.ExcelTests.getData" />
       <item itemvalue="TestNG.ZooplaEndToEnd" />
       <item itemvalue="TestNG.ZooplaEndToEnd.verifyAgentDetails" />
+      <item itemvalue="TestNG.ZooplaHomePageTests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ZooplaHomePageTests" />
         <item itemvalue="TestNG./Users/Kingslayer/Downloads/Selenium/NaveenHybridFramework/AutomationChallenge/testng.xml" />
         <item itemvalue="TestNG.ZooplaEndToEnd" />
         <item itemvalue="TestNG.ExcelTests.getData" />
         <item itemvalue="TestNG.ZooplaEndToEnd.verifyAgentDetails" />
-        <item itemvalue="TestNG.ZooplaTests" />
       </list>
     </recent_temporary>
   </component>
@@ -477,41 +416,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ExcelTests_getData - 2019.04.07 at 11h 19m 02s.xml">
-      <configuration name="ExcelTests.getData" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ExcelTests_getData - 2019.04.07 at 11h 22m 15s.xml">
-      <configuration name="ExcelTests.getData" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ExcelTests_getData - 2019.04.07 at 11h 23m 28s.xml">
-      <configuration name="ExcelTests.getData" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ExcelTests_getData - 2019.04.07 at 11h 26m 38s.xml">
-      <configuration name="ExcelTests.getData" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ZooplaEndToEnd - 2019.04.07 at 11h 27m 59s.xml">
-      <configuration name="ZooplaEndToEnd" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ZooplaEndToEnd - 2019.04.07 at 11h 29m 27s.xml">
-      <configuration name="ZooplaEndToEnd" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_Kingslayer_Downloads_Selenium_NaveenHybridFramework_AutomationChallenge_testng_xml - 2019.04.07 at 11h 32m 23s.xml">
-      <configuration name="/Users/Kingslayer/Downloads/Selenium/NaveenHybridFramework/AutomationChallenge/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_Kingslayer_Downloads_Selenium_NaveenHybridFramework_AutomationChallenge_testng_xml - 2019.04.07 at 11h 34m 13s.xml">
-      <configuration name="/Users/Kingslayer/Downloads/Selenium/NaveenHybridFramework/AutomationChallenge/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_Kingslayer_Downloads_Selenium_NaveenHybridFramework_AutomationChallenge_testng_xml - 2019.04.07 at 11h 36m 24s.xml">
-      <configuration name="/Users/Kingslayer/Downloads/Selenium/NaveenHybridFramework/AutomationChallenge/testng.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="_Users_Kingslayer_Downloads_Selenium_NaveenHybridFramework_AutomationChallenge_testng_xml - 2019.04.07 at 11h 44m 52s.xml">
       <configuration name="/Users/Kingslayer/Downloads/Selenium/NaveenHybridFramework/AutomationChallenge/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_Kingslayer_Downloads_Selenium_NaveenHybridFramework_AutomationChallenge_testng_xml - 2019.04.14 at 11h 13m 15s.xml">
+      <configuration name="/Users/Kingslayer/Downloads/Selenium/NaveenHybridFramework/AutomationChallenge/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ZooplaHomePageTests - 2019.04.14 at 11h 19m 43s.xml">
+      <configuration name="ZooplaHomePageTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ZooplaHomePageTests - 2019.04.14 at 11h 23m 55s.xml">
+      <configuration name="ZooplaHomePageTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ZooplaHomePageTests - 2019.04.14 at 11h 48m 40s.xml">
+      <configuration name="ZooplaHomePageTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ZooplaHomePageTests - 2019.04.14 at 11h 49m 29s.xml">
+      <configuration name="ZooplaHomePageTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ZooplaHomePageTests - 2019.04.14 at 11h 50m 42s.xml">
+      <configuration name="ZooplaHomePageTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ZooplaHomePageTests - 2019.04.14 at 11h 54m 24s.xml">
+      <configuration name="ZooplaHomePageTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ZooplaHomePageTests - 2019.04.14 at 11h 58m 29s.xml">
+      <configuration name="ZooplaHomePageTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ZooplaHomePageTests - 2019.04.14 at 15h 34m 41s.xml">
+      <configuration name="ZooplaHomePageTests" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="3" y="23" width="1425" height="797" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25343955" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3620565" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -519,7 +459,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32930514" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5770393" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5755287" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.44410875" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -532,7 +472,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info active="true" anchor="right" id="Maven" order="4" visible="true" weight="0.3294714" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.09413469" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info anchor="right" id="Key Promoter X" order="6" />
     </layout>
@@ -701,39 +641,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zoopla/tests/ZooplaHomePageTests.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zoopla/base/TestUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="31" column="5" selection-start-line="27" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
+        <state relative-caret-position="1081">
+          <caret line="57" column="20" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zoopla/tests/ZooplaSearchResultsTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zoopla/base/BaseClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1150">
-          <caret line="50" column="45" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/app.log" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zoopla/pages/PropertyDetailsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
+        <state relative-caret-position="805">
           <caret line="53" selection-start-line="53" selection-end-line="53" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -744,8 +666,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/zoopla/tests/ExcelTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
+        <state relative-caret-position="276">
           <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zoopla/tests/ZooplaSearchResultsTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/propertieslogs.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zoopla/pages/SearchResultsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -754,7 +699,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zoopla/base/ExcelUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-493">
+        <state relative-caret-position="161">
           <caret line="16" column="147" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="147" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -762,10 +707,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zoopla/base/TestUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zoopla/base/BaseClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1311">
-          <caret line="57" column="20" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
+        <state relative-caret-position="510">
+          <caret line="56" column="5" selection-start-line="16" selection-end-line="56" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -774,7 +719,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/zoopla/tests/ZooplaEndToEnd.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
+        <state relative-caret-position="4">
           <caret line="42" selection-start-line="42" selection-end-line="42" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -782,10 +727,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zoopla/pages/SearchResultsPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zoopla/tests/ZooplaHomePageTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        <state relative-caret-position="96">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="18" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -794,8 +739,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="66" column="63" selection-start-line="66" selection-start-column="63" selection-end-line="66" selection-end-column="63" />
+        <state relative-caret-position="69">
+          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="53" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="21" lean-forward="true" selection-end-line="25" selection-end-column="31" />
         </state>
       </provider>
     </entry>
