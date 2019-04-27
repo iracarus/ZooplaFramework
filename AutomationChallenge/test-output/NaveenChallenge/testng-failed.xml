@@ -7,7 +7,7 @@
         <methods>
           <include name="end"/>
           <include name="setup"/>
-          <include name="verifyAgentDetails" invocation-numbers="2"/>
+          <include name="verifyAgentDetails" invocation-numbers="0 2"/>
         </methods>
       </class> <!-- com.zoopla.tests.ZooplaEndToEnd -->
     </classes>
